@@ -10,13 +10,12 @@ public class SignUtil {
      * @param timestamp
      * @param nonce
      * @return
-     * @Author:lulei
      * @Description: 微信权限验证
      */
-    private static String TOKEN="forvioletqqy";
+    private static String TOKEN = "forvioletqqy";
 
     public static boolean checkSignature(String signature, String timestamp, String nonce) {
-        String[] arr = new String[] { TOKEN, timestamp, nonce };
+        String[] arr = new String[]{TOKEN, timestamp, nonce};
         //按字典排序
         Arrays.sort(arr);
         StringBuilder content = new StringBuilder();

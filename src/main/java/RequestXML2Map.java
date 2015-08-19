@@ -5,12 +5,14 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
 
 /**
  * Created by qqy on 15/8/13.
  */
+
 //从request中拿到xml并封装在map中
 public class RequestXML2Map {
     public static Map parseXml(HttpServletRequest request) throws Exception {

@@ -1,3 +1,4 @@
 SimpleController.class
 Encrypt.class
+RequestXML2Map.class
 SignUtil.class
